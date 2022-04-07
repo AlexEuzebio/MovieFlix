@@ -1,0 +1,79 @@
+.movie-details-container {
+  padding: 10px;
+}
+
+.movie-details-container h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFF;
+  letter-spacing: -0.015em;
+  margin-bottom: 18px;
+  margin-right: 10px;
+}
+
+.movie-data-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  margin-bottom: 18px;
+}
+
+.movie-data-container h5 {
+  color:#FFF;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.movie-data-container p {
+  color:#FFF;
+  font-size: 14px;
+  margin: 0;
+}
+
+.review-form-card {
+  padding: 20px 10px;
+  margin-bottom: 18px;
+}
+
+.review-form-card form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-review {
+  color:gray;
+}
+
+.save-submit {
+  height: 50px;
+  width: 100%;
+  max-width: 334px;
+  margin-top: 17px;  
+}
+
+.review-details-card {
+  padding: 10px 17px;
+}
+
+@media (min-width: 1200px) {
+  .movie-details-container {
+    padding: 36px 40px;
+  }
+  .movie-details-container h2 {
+    font-size: 48px;
+    margin-bottom: 25px;
+  }
+  
+  .movie-data-container {
+    padding: 24px 17px;
+    margin-bottom: 29px;
+  }
+
+  .review-form-card {
+    padding: 24px 17px;
+    margin-bottom: 29px;
+  }
+   
+}

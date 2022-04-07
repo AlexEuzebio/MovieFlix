@@ -1,0 +1,141 @@
+.home-container {
+  height: calc(100vh - 68px);
+  padding-top: 17px;
+  display: flex;
+  justify-content: center;
+}
+
+.home-content-container {
+  display: none;
+  height: 573px;
+}
+
+.home-content-container h2 {
+  font-size: 48px;
+  color: #FFF;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  width: 350px;
+  padding-left: 27px;
+  margin-bottom: 20px;
+}
+
+.home-content-container p {
+  font-size: 22px;
+  color: #FFF;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  width: 350px;
+  padding-left: 27px;
+  margin-bottom: 50px;
+}
+
+.image-container svg {
+  width: 382px;
+  height: 265px;
+}
+
+.login-card {
+  width: 298px;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.login-title {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.login-title h1 {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 36px;
+  letter-spacing: -0.015em;
+  font-weight: 400;
+}
+
+
+.error-message {
+  width: 100%;
+}
+
+.form-container {
+  width: 264px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form {
+  width: 100%;
+} 
+
+.login-form #username {
+  width: 100%;
+  color:gray;
+}
+
+.login-form #password {
+  width: 100%;
+  margin-top: 20px;
+  color:gray;
+}
+
+.login-form .login-submit {
+  margin-top: 54px;
+  width: 100%;
+  height: 50px;
+}
+
+@media (min-width: 576px) {
+
+  .home-container {
+    padding-top: 40px;
+  }
+  .login-card {
+    width: 479px;
+    padding-bottom: 133px;
+  }
+
+  .login-title {
+    margin-top: 74px;
+  }  
+
+  .login-title h1 {
+    font-size: 48px;   
+  }
+
+  .form-container {
+    width: 384px;
+  }  
+ 
+  .login-form #password {
+    margin-top: 30px;
+  }
+
+  .login-form .login-submit {
+    margin-top: 74px;
+    height: 65px;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+
+  .home-container {
+    padding-top: 0;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .home-content-container {
+    padding-top: 40px;
+    display:flex;
+    flex-direction: column;
+  }
+   
+}
