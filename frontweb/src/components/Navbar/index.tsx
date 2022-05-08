@@ -31,7 +31,6 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-nav navbar-light bg-primary navbar-container">
-      <div className="container-fluid">
         <a className="nav-brand" href="#">
           MovieFlix
         </a>
@@ -40,7 +39,6 @@ const Navbar = () => {
             <h6>Sair</h6>
           </button>
         )}
-      </div>
     </nav>
   );
 };

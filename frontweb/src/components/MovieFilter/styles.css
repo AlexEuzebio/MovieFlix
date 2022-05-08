@@ -1,0 +1,51 @@
+.movie-filter-card {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px 20px;
+  align-items: center;
+  max-width: 1120px;
+}
+
+.genre-filter-select__indicator-separator {
+  display: none;
+}
+
+.genre-filter-select__control {
+  width: 260px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+  background-color: #6c6c6c !important;
+}
+
+.genre-filter-select__placeholder {
+  color: #ffffff !important;
+}
+
+.genre-filter-select__single-value {
+  color: #ffffff !important;
+}
+
+.genre-filter-select__clear-indicator {
+  color: #bebdbd !important;
+}
+
+.genre-filter-select__dropdown-indicator {
+  color: #9e9e9e !important;
+}
+
+@media (min-width: 768px) {
+  .movie-filter-card {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .movie-filter-card {
+    height: 80px;
+  }
+}

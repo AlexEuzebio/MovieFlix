@@ -1,8 +1,11 @@
 .navbar-container {
   height: 68px;
-  padding: 0;;
+  padding-left: 18px;
+  padding-right: 10px;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
 
 .nav-brand {
@@ -13,11 +16,6 @@
   letter-spacing: -0.015em;
 }
 
-.container-fluid {
-  padding-left: 18px;
-  padding-right: 10px;
-}
-
 .btn-logout {
   border: 1px solid #000;
   border-radius: 10px;
@@ -26,12 +24,29 @@
   height: 30px;
 }
 
-
-
 .btn-logout h6 {
   color: #000;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: -0.015em;
+}
+
+@media (min-width: 576px) {
+  .navbar-container {
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-container {
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-container {
+    height: 70px;
+    padding-left: 40px;
+  }
 }

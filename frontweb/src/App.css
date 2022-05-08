@@ -3,7 +3,20 @@
 * {
 margin: 0;
 border: 0;
+box-sizing: border-box;
 font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;  
+}
+
+a,
+a.hover {
+  text-decoration: none;
+  color: unset;
 }
 
 h1, h2, h3, h4, h5, h6 {
